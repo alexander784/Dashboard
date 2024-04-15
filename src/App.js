@@ -7,6 +7,14 @@ import {
   Routes
 } from 'react-router-dom';
 
+
+const Layout = () => {
+  return (
+  <div className="main">
+
+  </div>
+  )
+  }
 function App() {
   return (
     <div className="App">
