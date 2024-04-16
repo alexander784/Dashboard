@@ -1,4 +1,4 @@
-import TopBox from "../../components/navbar/topbox/TopBox";
+import TopBox from "../../components/topbox/TopBox";
 import "./home.scss";
 
 
