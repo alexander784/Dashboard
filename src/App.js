@@ -1,6 +1,7 @@
 import NavBar from "./components/navbar/NavBar";
-import Footer from "./components/navbar/footer/Footer";
-import Menu from "./components/navbar/footer/menu/Menu";
+import Footer from "./footer/Footer";
+import Menu from "./footer/menu/Menu";
+import Login from "./login/Login";
 import Home from "./pages/home/Home";
 import Products from "./pages/products/Products";
 import Users from "./pages/users/Users";
@@ -39,6 +40,8 @@ function App() {
           <Route path="/" element={<Home />}/>
           <Route path="/products" element={<Products />}/>
           <Route path="/users" element={<Users />}/>
+          <Route path="/login" element={<Login />}/>
+          
 
 
         </Routes>
