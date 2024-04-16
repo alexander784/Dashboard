@@ -136,3 +136,56 @@ export const menu = [
                         ],
                     },
         ];
+
+export const topDealUsers = [
+    {
+        id:1,
+        img:"",
+        username:"Elvis",
+        email:"elvis@gmail.com",
+        amount:"2300",
+    },
+    {
+        id:2,
+        img:"",
+        username:"Lilian",
+        email:"lili@gmail.com",
+        amount:"2300",
+    },
+    {
+        id:3,
+        img:"",
+        username:"Brenton",
+        email:"brenton@gmail.com",
+        amount:"2300",
+    },
+    {
+        id:4,
+        img:"",
+        username:"Adeline",
+        email:"adeline@gmail.com",
+        amount:"2300",
+    },
+    {
+        id:5,
+        img:"",
+        username:"Tina",
+        email:"kipas@gmail.com",
+        amount:"4300",
+    },
+    {
+        id:6,
+        img:"",
+        username:"simion",
+        email:"simion@gmail.com",
+        amount:"5800",
+    },
+    {
+        id:7,
+        img:"",
+        username:"Carol",
+        email:"carol@gmail.com",
+        amount:"6000",
+    },
+]
+    
