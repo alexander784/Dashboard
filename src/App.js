@@ -29,6 +29,7 @@ const Layout = () => {
 
       </div>
     </div>
+    {/* <Home /> */}
     <Footer />
 
   </div>
@@ -37,11 +38,11 @@ const Layout = () => {
 function App() {
   return (
     <div className="App">
-      <Home />
+     
       <Router>
         <Routes>
         <Route path="/" element={<Layout />}/>
-          <Route path="/" element={<Home />}/>
+          <Route path="/home" element={<Home />}/>
           <Route path="/products" element={<Products />}/>
           <Route path="/users" element={<Users />}/>
           <Route path="/login" element={<Login />}/>
