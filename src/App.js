@@ -1,6 +1,6 @@
 import NavBar from "./components/navbar/NavBar";
 import Footer from "./footer/Footer";
-import Menu from "./footer/menu/Menu";
+import Menu from "./menu/Menu";
 import Login from "./login/Login";
 import Home from "./pages/home/Home";
 import Products from "./pages/products/Products";
