@@ -1,4 +1,5 @@
 import React from 'react';
+import "./topbox.scss";
 import { topDealUsers } from '../../data';
 
 const TopBox = () => {
@@ -14,10 +15,9 @@ const TopBox = () => {
                 <div className="userTexts">
                   <span className='username'>{user.username}</span>
                   <span className='email'>{user.email}</span>
-
                 </div>
               </div>
-
+              <span className='amount'>${user.amount}</span>
             </div>
           ))}
         </div>
