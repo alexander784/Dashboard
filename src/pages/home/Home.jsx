@@ -9,16 +9,16 @@ const Home = () => {
       <div className="box box1">
         <TopBox />
       </div>
-      <div className="box box2">ChartBox
+      <div className="box box2">
       <ChartBox />
       </div>
-      <div className="box box2">ChartBox
+      <div className="box box2">
       <ChartBox />
       </div>
-      <div className="box box2">ChartBox
+      <div className="box box2">
       <ChartBox />
       </div>
-      <div className="box box2">ChartBox
+      <div className="box box2">
       <ChartBox />
       </div>
       <div className="box box6">Box6</div>

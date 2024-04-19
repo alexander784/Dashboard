@@ -15,7 +15,11 @@ const ChartBox = () => {
         <h1>11.238</h1>
         <Link to="/">View All</Link>
         <div className='chartInfo'>
-            <div className="chart"></div>
+            <div className="chart">
+                {/* Chart container */}
+
+                
+            </div>
             <div className="texts">
                 <span className='percentage'>45%</span>
                 <span className='duration'>this month</span>
