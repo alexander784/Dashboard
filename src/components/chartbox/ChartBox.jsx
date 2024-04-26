@@ -5,18 +5,13 @@ import { LineChart, Line, ResponsiveContainer, Tooltip } from 'recharts';
 
 
 
-type Props = {
-    color:string;
-    icon:string
-    title:string
-    dataKey:string
-    number:number | String
-    percentage:number
-    chartbox:object
 
 
-}
+
 const ChartBox = (props) => {
+
+const {color, icon, title, dataKey, number, percentage, chartbox } = props;
+
   return (
     <div className='chartBox'>
         <div className='boxInfo'></div>
@@ -32,13 +27,15 @@ const ChartBox = (props) => {
                 {/* Chart container */}
 
                 <ResponsiveContainer width="99%" height="100%">
-        <LineChart data={props.ChartData}>
+        <LineChart data={props.chartData}>
             <Tooltip 
             contentStyle={{background:"transparent", border:"none"}}
             labelStyle={{display:"none"}} 
-            position={{x: 10, y:50}}/>
-          <Line type="monotone" dataKey={props.datakey}
-           stroke={props.color} strokeWidth={2}
+            position={{x: 10, y:70}}/>
+          <Line type="monotone"
+           dataKey={props.dataKey}
+           stroke={props.color} 
+           strokeWidth={2}
           dot={false} />
         </LineChart>
       </ResponsiveContainer>
