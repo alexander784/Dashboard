@@ -25,11 +25,11 @@ const Layout = () => {
         <Menu />
       </div>
       <div className="contentContainer">
+    <Home />
         <Outlet />
 
       </div>
     </div>
-    {/* <Home /> */}
     <Footer />
 
   </div>
