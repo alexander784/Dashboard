@@ -2,6 +2,7 @@ import TopBox from "../../components/topbox/TopBox";
 import "./home.scss";
 import ChartBox from "../../components/chartbox/ChartBox";
 import { chartBoxConversion, chartBoxProduct, chartBoxRevenue, chartBoxUser } from "../../data";
+import { BarChart } from "recharts";
 
 
 const Home = () => {

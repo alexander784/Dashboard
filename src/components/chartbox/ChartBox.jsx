@@ -4,10 +4,6 @@ import { Link } from 'react-router-dom';
 import { LineChart, Line, ResponsiveContainer, Tooltip } from 'recharts';
 
 
-
-
-
-
 const ChartBox = (props) => {
 
 const {color, icon, title, dataKey, number, percentage, chartbox } = props;
@@ -40,6 +36,7 @@ const {color, icon, title, dataKey, number, percentage, chartbox } = props;
         </LineChart>
       </ResponsiveContainer>
 
+      
                 
             </div>
             <div className="texts">
@@ -48,6 +45,7 @@ const {color, icon, title, dataKey, number, percentage, chartbox } = props;
                 <span className='duration'>this month</span>
 
             </div>
+
 
         </div>
     </div>
