@@ -16,17 +16,17 @@ const Home = () => {
       <div className="box box2 ">
       <ChartBox {...chartBoxUser}/>
       </div>
-      <div className="box box2">
+      <div className="box box3">
       <ChartBox {...chartBoxProduct}/>
-      </div>
-      <div className="box box2">
-      <ChartBox {...chartBoxRevenue}/>
-      </div>
-      <div className="box box2">
-      <ChartBox {...chartBoxConversion} />
       </div>
       <div className="box box6">
         <PieChartBox />
+      </div>
+      <div className="box box5">
+      <ChartBox {...chartBoxConversion} />
+      </div>
+      <div className="box box4">
+      <ChartBox {...chartBoxRevenue}/>
       </div>
       <div className="box box7">Box7</div>
       <div className="box box8">
