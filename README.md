@@ -12,21 +12,21 @@
 
 
 ## Technologies Used.
- React:A javascript library for building user interfaces.
- Chart.js A popular library for creating charts.
- React Router:FOr handling routing in the application.
+ React:A javascript library for building user interfaces. <br>
+ Chart.js A popular library for creating charts.<br>
+ React Router:FOr handling routing in the application.<br>
 
 
  ## Getting started
  ## Installation
  Clone the Repository:
-  `git clone:https://github.com/alexander784/Dashboard.git`
-  Navigate to the project directory:
-  `cd dashboard`
-  Install dependecies:
-  `npm install`
+  `git clone:https://github.com/alexander784/Dashboard.git`<br>
+  Navigate to the project directory:<br>
+  `cd dashboard`<br>
+  Install dependecies:<br>
+  `npm install`<br
   Run the App: <br>
-  `npm start`
+  `npm start`<br>
 
 
 
