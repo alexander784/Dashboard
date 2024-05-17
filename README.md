@@ -24,7 +24,7 @@
   Navigate to the project directory:<br>
   `cd dashboard`<br>
   Install dependecies:<br>
-  `npm install`<br
+  `npm install`<br>
   Run the App: <br>
   `npm start`<br>
 
